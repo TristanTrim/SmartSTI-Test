@@ -1,0 +1,23 @@
+
+@page {
+  size: 5.5in 8.5in;
+  margin: 2.5cm;
+}
+
+h2 {
+  page-break-before:avoid;
+  margin-top:1em;
+}
+
+.buttons {
+  display:none;
+}
+
+img {
+  max-width:300px !important;
+}
+
+.logo {
+  width:80px;
+  margin:auto;
+}

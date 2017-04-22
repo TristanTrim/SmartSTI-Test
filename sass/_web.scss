@@ -1,0 +1,68 @@
+body {
+  width:80vw;
+  max-width:40em;
+  margin:auto;
+  margin-bottom:6em;
+  color:$web-black;
+}
+h2 {
+  color:$web-black;
+}
+
+
+.logo {
+  width:6.1em;
+  margin-top:2em;
+  margin-bottom:1em;
+}
+
+.content-frame {
+  overflow:hidden;
+  width:100%;
+  position: relative;
+}
+
+.content {
+  display:flex;
+  white-space:nowrap;
+  width:200%;
+  transition-duration: .61s;
+  transition-property:transform;
+  background-color:$web-white;
+}
+.flipped {
+  -ms-transform: translate(-50%, 0); /* IE 9 */
+  -webkit-transform: translate(-50%, 0); /* Safari */
+  transform: translate(-50%, 0);
+}
+.side {
+  width:100%;
+  white-space:normal;
+  padding:1%;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.info {
+  position: absolute;
+  background:rgba(255,255,255,.8);
+  padding:1em;
+}
+.patient-photo {
+}
+
+.buttons {
+  display:flex;
+  justify-content:flex-end;
+  margin:1em;
+}
+
+.button {
+  background-color:$web-blue;
+}
+.button:hover {
+  background-color:$web-light-blue;
+}
+.button:active {
+  background-color:$web-dark-blue;
+}

@@ -1,0 +1,17 @@
+@import 'palette';
+
+@media screen {
+  @import 'web';
+  @media (max-width: 36em) {
+    @import 'mobile';
+  }
+}
+
+@media print and (color) {
+  @import 'print';
+  * {
+     -webkit-print-color-adjust: exact;
+     print-color-adjust: exact;
+  }
+}
+

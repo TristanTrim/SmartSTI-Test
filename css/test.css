@@ -1,0 +1,94 @@
+@media screen {
+  body {
+    width: 80vw;
+    max-width: 40em;
+    margin: auto;
+    margin-bottom: 6em;
+    color: #66645e; }
+
+  h2 {
+    color: #66645e; }
+
+  .logo {
+    width: 6.1em;
+    margin-top: 2em;
+    margin-bottom: 1em; }
+
+  .content-frame {
+    overflow: hidden;
+    width: 100%;
+    position: relative; }
+
+  .content {
+    display: flex;
+    white-space: nowrap;
+    width: 200%;
+    transition-duration: .61s;
+    transition-property: transform;
+    background-color: #f4f1e9; }
+
+  .flipped {
+    -ms-transform: translate(-50%, 0);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, 0);
+    /* Safari */
+    transform: translate(-50%, 0); }
+
+  .side {
+    width: 100%;
+    white-space: normal;
+    padding: 1%;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+
+  .info {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em; }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em; }
+
+  .button {
+    background-color: #93b1b8; }
+
+  .button:hover {
+    background-color: #acc0c1; }
+
+  .button:active {
+    background-color: #485b5b; } }
+@media screen and (max-width: 36em) {
+  body {
+    width: 100%; }
+
+  .logo {
+    margin-left: 1em; }
+
+  .info {
+    position: relative;
+    background: none; } }
+@media print and (color) {
+  @page {
+    size: 5.5in 8.5in;
+    margin: 2.5cm; }
+  h2 {
+    page-break-before: avoid;
+    margin-top: 1em; }
+
+  .buttons {
+    display: none; }
+
+  img {
+    max-width: 300px !important; }
+
+  .logo {
+    width: 80px;
+    margin: auto; }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; } }
+
+/*# sourceMappingURL=test.css.map */
